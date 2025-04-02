@@ -3,11 +3,10 @@ package gen
 import (
 	"database/sql"
 
+	"gorm.io/gen/field"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 	"gorm.io/gorm/schema"
-
-	"gorm.io/gen/field"
 )
 
 type (

@@ -16,15 +16,14 @@ import (
 
 	"golang.org/x/tools/go/packages"
 	"golang.org/x/tools/imports"
-	"gorm.io/gorm"
-	"gorm.io/gorm/schema"
-
 	"gorm.io/gen/helper"
 	"gorm.io/gen/internal/generate"
 	"gorm.io/gen/internal/model"
 	"gorm.io/gen/internal/parser"
 	tmpl "gorm.io/gen/internal/template"
 	"gorm.io/gen/internal/utils/pools"
+	"gorm.io/gorm"
+	"gorm.io/gorm/schema"
 )
 
 // T generic type

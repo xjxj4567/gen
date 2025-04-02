@@ -7,13 +7,12 @@ import (
 	"reflect"
 	"strings"
 
+	"gorm.io/gen/field"
+	"gorm.io/gen/helper"
 	"gorm.io/gorm"
 	"gorm.io/gorm/callbacks"
 	"gorm.io/gorm/clause"
 	"gorm.io/gorm/schema"
-
-	"gorm.io/gen/field"
-	"gorm.io/gen/helper"
 )
 
 // ResultInfo query/execute info

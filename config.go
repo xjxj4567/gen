@@ -6,10 +6,9 @@ import (
 	"path/filepath"
 	"strings"
 
+	"gorm.io/gen/internal/model"
 	"gorm.io/gorm"
 	"gorm.io/gorm/utils/tests"
-
-	"gorm.io/gen/internal/model"
 )
 
 // GenerateMode generate mode
